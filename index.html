@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>My own Python Doc</header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#Python_Overview">Python Overview</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#History_of_Python">History of Python</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Python_Basic_Syntax">Python Basic Syntax</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Python_Variables">Python Variables</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Python_Data_Types">Python Data Types</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Python_Lists">Python Lists</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Python_Functions">Python Functions</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Reference">Reference</a>
+        </li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Python_Overview">
+        <header>Python Overview</header>
+        <article>
+          <p>Python is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable. It uses English keywords frequently where as other languages use punctuation, and it has fewer syntactical constructions than other languages.</p>
+          <ul>
+            <li>Python is Interpreted − Python is processed at runtime by the interpreter. You do not need to compile your program before executing it. This is similar to PERL and PHP.</li>
+            <li>Python is Object-Oriented − Python supports Object-Oriented style or technique of programming that encapsulates code within objects.</li>
+            <li>Python is a Beginner's Language − Python is a great language for the beginner-level programmers and supports the development of a wide range of applications from simple text processing to WWW browsers to games.</li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="History_of_Python">
+        <header>History of Python</header>
+        <article>
+          <p>Python was developed by Guido van Rossum in the late eighties and early nineties at the National Research Institute for Mathematics and Computer Science in the Netherlands.
+          Python is derived from many other languages, including ABC, Modula-3, C, C++, Algol-68, SmallTalk, and Unix shell and other scripting languages.p>
+          Python is copyrighted. Like Perl, Python source code is now available under the GNU General Public License (GPL).
+          Python is now maintained by a core development team at the institute, although Guido van Rossum still holds a vital role in directing its progress.</p>
+        </article>
+      </section>
+      <section class="main-section" id="Python_Basic_Syntax">
+        <header>Python Basic Syntax</header>
+        <article>
+          <p>The Python syntax defines a set of rules that are used to create Python statements while writing a Python Program. The Python Programming Language Syntax has many similarities to Perl, C, and Java Programming Languages. However, there are some definite differences between the languages.</p>
+          <p>Let us execute a Python "Hello, World!":</p>
+          <code>print ("Hello, World!")</code>
+          <p>this produces the following result:</p>
+          <code>Hello, World!</code>
+          <p></p>
+        </article>
+      </section>
+      <section class="main-section" id="Python_Variables">
+        <header>Python Variables</header>
+        <article>
+          <p>Python variables are the reserved memory locations used to store values with in a Python Program. This means that when you create a variable you reserve some space in the memory.</p>
+          <p>Based on the data type of a variable, Python interpreter allocates memory and decides what can be stored in the reserved memory. Therefore, by assigning different data types to Python variables, you can store integers, decimals or characters in these variables.</p>
+          <header>Creating Python Variables</header>
+          <p>Python variables do not need explicit declaration to reserve memory space or you can say to create a variable. A Python variable is created automatically when you assign a value to it. The equal sign (=) is used to assign values to variables.</p>
+          <p>The operand to the left of the = operator is the name of the variable and the operand to the right of the = operator is the value stored in the variable. For example:</p>
+          <code>counter = 100 # Creates an integer variable
+            miles = 1000.0 # Creates a floating point variable
+            name = "Zara Ali" # Creates a string variable
+          </code>
+        </article>
+      </section>
+      <section class="main-section" id="Python_Data_Types">
+        <header>Python Data Types</header>
+        <article>
+          <p>Python Data Types are used to define the type of a variable. It defines what type of data we are going to store in a variable. The data stored in memory can be of many types. For example, a person's age is stored as a numeric value and his or her address is stored as alphanumeric characters.</p>
+          <p>Python has various built-in data types which we will discuss with in this tutorial:</p>
+          <ul>
+            <li>Numeric - int, float, complex</li>
+            <li>String - str</li>
+            <li>Sequence - list, tuple, range</li>
+            <li>Binary - bytes, bytearray, memoryview</li>
+            <li>Mapping - dict</li>
+            <li>Boolean - bool</li>
+            <li>Set - set, frozenset</li>
+            <li>None - NoneType</li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Python_Lists">
+        <header>Python Lists</header>
+        <article>
+          <p>The list is a most versatile datatype available in Python which can be written as a list of comma-separated values (items) between square brackets. Important thing about a list is that items in a list need not be of the same type.</p>
+          <p>Creating a list is as simple as putting different comma-separated values between square brackets. For example:</p>
+          <code>list1 = ['physics', 'chemistry', 1997, 2000];
+list2 = [1, 2, 3, 4, 5 ];
+list3 = ["a", "b", "c", "d"];
+          </code>
+          <p>Similar to string indices, list indices start at 0, and lists can be sliced, concatenated and so on.</p>
+        </article>
+      </section>
+      <section class="main-section" id="Python_Functions">
+        <header>Python Functions</header>
+        <article>
+          <p>A function is a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing.</p>
+          <p>You can define functions to provide the required functionality. Here are simple rules to define a function in Python.</p>
+          <ul>
+            <li>Function blocks begin with the keyword def followed by the function name and parentheses ( ( ) ).</li>
+            <li>Any input parameters or arguments should be placed within these parentheses. You can also define parameters inside these parentheses.</li>
+            <li>The first statement of a function can be an optional statement - the documentation string of the function or docstring.</li>
+            <li>The code block within every function starts with a colon (:) and is indented.</li>
+            <li>The statement return [expression] exits a function, optionally passing back an expression to the caller. A return statement with no arguments is the same as return None.</li>
+          </ul>
+          <h3>Syntax</h3>
+          <code><pre>def functionname( parameters ):
+   "function_docstring"
+   function_suite
+   return [expression]</pre></code>
+          <p>By default, parameters have a positional behavior and you need to inform them in the same order that they were defined.</p>
+          <h3>Example</h3>
+          <p>The following function takes a string as input parameter and prints it on standard screen.</p>
+          <code><pre>def printme( str ):
+   "This prints a passed string into this function"
+   print str
+   return</pre></code>
+        </article>
+      </section>
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <ul>
+          <li>
+            All the documentation in this page is taken from <a href="https://www.tutorialspoint.com/python/index.htm">here</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
